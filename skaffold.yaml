@@ -1,0 +1,13 @@
+apiVersion: skaffold/v2beta14
+kind: Config
+metadata:
+  name: skaffold-demo
+build:
+  artifacts:
+  - image: roukou/skaffold-demo
+    docker:
+      dockerfile: Dockerfile
+deploy:
+  kubectl:
+    manifests:
+    - k8s-app.yml
