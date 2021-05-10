@@ -4,7 +4,7 @@ metadata:
   name: skaffold-demo
 build:
   artifacts:
-  - image: roukou/skaffold-demo
+  - image: pandiaraja2/skaffoldsample
     docker:
       dockerfile: Dockerfile
 deploy:
