@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
   - name: skaffold-demo
-    image: roukou/skaffold-demo
+    image: pandiaraja2/skaffoldsample
